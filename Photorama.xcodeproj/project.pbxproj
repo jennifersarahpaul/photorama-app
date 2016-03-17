@@ -12,6 +12,7 @@
 		D67C77A61C9B592A00BEE874 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D67C77A51C9B592A00BEE874 /* Assets.xcassets */; };
 		D67C77A91C9B592A00BEE874 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D67C77A71C9B592A00BEE874 /* LaunchScreen.storyboard */; };
 		D67C77B11C9B5B5A00BEE874 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67C77B01C9B5B5A00BEE874 /* PhotosViewController.swift */; };
+		D67C77B31C9B608D00BEE874 /* FlickrAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67C77B21C9B608D00BEE874 /* FlickrAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D67C77A81C9B592A00BEE874 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D67C77AA1C9B592A00BEE874 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D67C77B01C9B5B5A00BEE874 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		D67C77B21C9B608D00BEE874 /* FlickrAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				D67C77A71C9B592A00BEE874 /* LaunchScreen.storyboard */,
 				D67C77AA1C9B592A00BEE874 /* Info.plist */,
 				D67C77B01C9B5B5A00BEE874 /* PhotosViewController.swift */,
+				D67C77B21C9B608D00BEE874 /* FlickrAPI.swift */,
 			);
 			path = Photorama;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D67C77B31C9B608D00BEE874 /* FlickrAPI.swift in Sources */,
 				D67C77B11C9B5B5A00BEE874 /* PhotosViewController.swift in Sources */,
 				D67C779F1C9B592A00BEE874 /* AppDelegate.swift in Sources */,
 			);
