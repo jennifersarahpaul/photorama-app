@@ -22,7 +22,7 @@ enum FlickrError: ErrorType {
     case InvalidJSONData
 }
 
-// responsible for knowing and handling all Flick-r related information
+// responsible for knowing and handling all Flickr related information
 struct FlickrAPI {
     //type-level property ('static' for structs, 'class' for classes)
     private static let baseURLString = "https://api.flickr.com/services/rest"
@@ -57,7 +57,7 @@ struct FlickrAPI {
     }
     
     static func recentPhotosURL() -> NSURL {
-        return flickrURL(method: .RecentPhotos, parameters: ["extras": "url_h, data_taken"])
+        return flickrURL(method: .RecentPhotos, parameters: ["extras": "url_h, date_taken"])
     }
     
     static func photosFromJSONData(data: NSData) -> PhotosResult {
